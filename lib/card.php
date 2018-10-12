@@ -1,12 +1,13 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: mrunkel
- * Date: 10/11/18
- * Time: 3:59 PM
- */
 
-class card
+
+class Card
 {
+  public $suit;
+  public $type; // 2-10, J, Q, K, A
 
+  public function __construct($suit = null, $type = null) {
+    $this->suit = $suit;
+    $this->type = $type;
+  }
 }

@@ -6,7 +6,7 @@
  * Time: 4:00 PM
  */
 
-class player
+class Player
 {
 
 }
